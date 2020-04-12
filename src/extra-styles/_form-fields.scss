@@ -15,19 +15,6 @@
             color: #79828B;
         }
     }
-    .is-invalid {
-        border: 1px solid red !important;;
-        background-image: none;
-    }
-    .invalid-lot {
-        margin-bottom: 15px;
-    }
-    .lot-feedback {
-        padding: 0;
-    }
-    textarea {
-        height: auto !important;
-    }
     .custom-select {
         height: 44px;
         font-size: 12px;
@@ -41,53 +28,10 @@
         }
     }
 }
-.input-icon {
-    input {
-        padding-right: 40px;
-    }
-    #companyName {
-        background: transparent url("/../../assets/images/skycraper.svg") right center no-repeat;
-        background-position-x: 95%;
-    }
-    #email, #confirmEmail {
-        background: transparent url("/../../assets/images/Message.svg") right center no-repeat;
-        background-position-x: 95%;
-    }
-    #password, #retypePassword {
-        background: transparent url("/../../assets/images/Lock.svg") right center no-repeat;
-        background-position-x: 95%;
-    }
-    #business-address {
-        background: transparent url("/../../assets/images/maps-and-flags.svg") right center no-repeat;
-        background-position-x: 98%;
-    }
-    #Website {
-        background: transparent url("/../../assets/images/grid-world.svg") right center no-repeat;
-        background-position-x: 95%;
-    }
-    #contact-person {
-        background: transparent url("/../../assets/images/user.svg") right center no-repeat;
-        background-position-x: 97%;
-    }
-    #phone-number {
-        background: transparent url("/../../assets/images/mobile-phone.svg") right center no-repeat;
-        background-position-x: 95%;
-    }
-}
 label {
     color: $purple-color;
     font-size: 14px;
     font-weight: bold;
-}
-
-.form-tooltip {
-    position: relative;
-    img {
-        position: absolute;
-        right: 0;
-        top: 10px;
-        cursor: pointer;
-    }
 }
 
 @media (min-width: 767px) {

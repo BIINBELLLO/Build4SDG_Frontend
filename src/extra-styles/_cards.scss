@@ -14,25 +14,10 @@
     .card-body {
         .card-body__wrapper {
             .notice {
-                background: #f5f6ff;
                 border-radius: 5px;
                 padding: 7px 15px;
                 margin-bottom: 25px;
-                color: #FF5252;
-            }
-            form {
-                .card-body__action-btn {
-                    margin: 40px 0 0;
-                    p {
-                        margin: 0 20px 0 0;
-                        a {
-                            color: #FF5252;
-                        }
-                        .btn {
-                            color: #fff;
-                        }
-                    }
-                }
+                color: rgb(138, 43, 43);
             }
         }
     }

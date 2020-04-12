@@ -26,8 +26,6 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  estimateData() {
-    console.log(this.estimatorForm.value);
-  }
+  estimateData() { }
 
 }

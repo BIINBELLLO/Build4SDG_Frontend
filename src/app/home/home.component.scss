@@ -1,8 +1,33 @@
 @import '../../extra-styles/cards';
 @import '../../extra-styles/form-fields';
+@import '../../extra-styles/colors';
 
 :host {
     display: block;
     background: linear-gradient(133.13deg, #F5F7FA 1.07%, #F4F6F8 99.3%);
     min-height: 100vh;
+}
+
+.btn-md {
+    padding: 7px 25px;
+    height: unset;
+    font-size: 12px;
+    text-transform: none;
+}
+.btn-primary {
+    background: $purple-color;
+    &:hover {
+        background-color: $purple-color;
+    }
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: $purple-color;
+    border-color: transparent;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
 }
