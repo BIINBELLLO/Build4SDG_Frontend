@@ -1,0 +1,50 @@
+@import './colors';
+.card {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    .card-header {
+        background-color: #fff;
+        border-bottom: 1px solid #F1F1F1;
+        padding: 16px 20px;
+        h5 {
+            color : $purple-color;
+        }
+    }
+    .card-body {
+        .card-body__wrapper {
+            .notice {
+                background: #f5f6ff;
+                border-radius: 5px;
+                padding: 7px 15px;
+                margin-bottom: 25px;
+                color: #FF5252;
+            }
+            form {
+                .card-body__action-btn {
+                    margin: 40px 0 0;
+                    p {
+                        margin: 0 20px 0 0;
+                        a {
+                            color: #FF5252;
+                        }
+                        .btn {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-body__wrapper {
+        padding: 15px;
+    }
+}
+@media (min-width: 1024px) {
+    .card-body__action-btn {
+        padding-right: 10px;
+    }
+}

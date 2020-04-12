@@ -1,0 +1,8 @@
+@import '../../extra-styles/cards';
+@import '../../extra-styles/form-fields';
+
+:host {
+    display: block;
+    background: linear-gradient(133.13deg, #F5F7FA 1.07%, #F4F6F8 99.3%);
+    min-height: 100vh;
+}
